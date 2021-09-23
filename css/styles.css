@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header{
+    margin: 0;
+    padding: 20px 0 20px 20px;
+    width: 100%;
+    height: 10vh;
+    background-color: crimson;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+
+div.mark{
+    width: 30%;
+    align-items: center;
+}
+
+div.mark h2{
+    margin: 0;
+    padding: 20px 0;
+}
+
+nav.menu{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.menu a, .menu p{
+    color: #ffffff;
+    list-style: none;
+    margin: 0 10px;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
+}
