@@ -8,26 +8,47 @@
         <meta name="keywords" content="CV, Curriculum Vitae, Resume, Experiencia Laboral, HTML, Comunidad IT, Clase 6, Homework, Bootstrap">
         <meta name="author" content="Javier Garcia">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--  <link rel="shortcut icon" href="./images/" type="image/x-icon">  -->
+        <link rel="stylesheet" href="./css/bootstrap-5.1.1-dist/bootstrap-5.1.1-dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/styles.css">
         <title>Experiencia Laboral</title>
     </head>
 
     <body>
         <header>
-            <div class="mark">
-                <a href="index.html"><h2>Javier García</h2></a>
-            </div>
-            <nav class="menu">
-                <a href="index.html">Información General</a>
-                <a href="education.html">Educación</a>
-                <p><em>Experiencia Laboral</em></p>
-                <a href="trabajosRealizados.html">Trabajos Realizados</a>
+            <nav class="navbar navbar-dark navbar-expand-md bg-danger fixed-top p-3">
+                <div class="container">
+                    <a class="text-decoration-none" href="index.html">
+                        <span class="navbar-brand fs-3 fw-bold">Javier García</span>
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-md-end" id="menu-principal">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Datos Generales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="education.html">Educación</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Experiencia Laboral</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="trabajosRealizados.html">Trabajos Realizados</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
         
-        <main>
-            <div>
-                <h3>Experiencia Laboral</h3>
+        <main class="container mt-5 pt-4">
+            <div class="container pt-5 text-start">
+                <h3 class="display-5 mb-5 fw-bold text-danger text-center text-md-start">Experiencia Laboral</h3>
     
                 <ul>
                     <li>Lorem, ipsum dolor sit amet consectetur adipisicing.</li>
@@ -36,5 +57,7 @@
                 </ul>
             </div>
         </main>
+
+        <script src="./css/bootstrap-5.1.1-dist/bootstrap-5.1.1-dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
